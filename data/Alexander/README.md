@@ -1,6 +1,6 @@
 # 🧮 Alexander Polynomial Dataset
 
-This dataset contains Alexander polynomials for all prime knots up to 17 crossings, stored in a structured `.csv` format for use in computational and topological research.
+This dataset contains Alexander polynomials for all prime knots up to 17 crossings, stored in a structured `.csv` format.
 
 ## 📄 File: `alexander.csv`
 
