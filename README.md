@@ -20,6 +20,8 @@ Each dataset is provided as a `.csv` file. Each row typically corresponds to a k
 - Polynomial coefficients or homology ranks
 - Additional scalar invariants (crossing number, alternating, signature, s invariant, etc.)
 
+All datasets use the same knot identifier, following KnotScape's ordering for knots up to 16 crossings and Regina's ordering for 17 crossings knots.
+
 Please refer to each subdirectory’s `README.md` for format-specific notes.
 
 ## 📦 Repository Structure
@@ -37,28 +39,10 @@ Please refer to each subdirectory’s `README.md` for format-specific notes.
 └── utils/ (optional: scripts used for generating and parsing the data)
 ```
 
-## 📚 References
+## 📚 References and Credits
 
-Please fill in relevant papers, textbooks, or links that describe how each polynomial/homology is computed or interpreted.
+TODO
 
-- [ ] Alexander Polynomial: [Reference or algorithm]
-- [ ] Jones Polynomial: [Reference or method used]
-- [ ] HOMFLYPT Polynomial: [Computation method]
-- [ ] Khovanov Homology: [Software/toolchain or paper]
-
-<!-- ## 🛠️ Tools
-
-(Optional section if you include code)
-
-This repository may also include utility scripts for:
-
-- Parsing polynomials
-- Converting between formats
-- Visualizing polynomials or homologies -->
-
-<!-- ## ✅ Contributing
-
-Feel free to contribute new datasets, improve formatting, or submit corrections. Please follow the [contribution guidelines](CONTRIBUTING.md) if available. -->
 
 ## 📄 License
 
