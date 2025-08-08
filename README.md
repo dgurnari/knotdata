@@ -10,7 +10,7 @@ This repository contains a collection of datasets for various knot invariants, i
 | **Jones polynomial**          | Knot polynomial by V. Jones arising from representation theory of $\displaystyle U_{q}({\mathfrak {sl}}_{2})$.       |
 | **Theta polynomial**          | Very strong, computable, and fun 2-variable polynomial by D. Bar Natan and R. Van Der Veen.        |
 | **HOMFLYPT polynomial**       | Two-variable polynomial generalizing both Alexander and Jones polynomials. |
-| **Knot Floer homology**       | TO ADD |
+| **Knot Floer homology**       | Categorification of the Alexander polynomial by Ozsvath-Szabo (2004) and Rasmussen (2003) based on Heegaard Floer homology. |
 | **Khovanov homology** | A categorification of the Jones polynomial by M. Khovanov 1999.      |
 
 ## 📁 Dataset Format
