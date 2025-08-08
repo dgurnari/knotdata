@@ -10,7 +10,7 @@ Each row represents one knot, with associated metadata and polynomial coefficien
 
 | Column Name           | Description                                                                 |
 |------------------------|-----------------------------------------------------------------------------|
-| `knot_id`              | Knot identifier in the format `XX_Y`, where `XX` is the crossing number and `Y` is the index in standard tables (e.g., `03_1` = trefoil) |
+| `knot_id`              | Knot identifier |
 | `number_of_crossings` | Minimal crossing number of the knot                                         |
 | `table_number`         | Knot index within the set of knots with that crossing number               |
 | `is_alternating`       | Boolean (1 or 0), indicating whether the knot is alternating                |
