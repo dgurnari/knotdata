@@ -6,21 +6,22 @@ This repository contains a collection of datasets for various knot invariants, i
 
 | Invariant     | Description                                                                 |
 |--------------------|-----------------------------------------------------------------------------|
-| **Alexander polynomial **      | The first knot polynomial by J.W. Alexander in 1923.                        |
-| **Jones polynomial **          | Knot polynomial by V. Jones arising from representation theory of $\displaystyle U_{q}({\mathfrak {sl}}_{2})$.       |
-| **Theta polynomial **          | Very strong, computable, and fun 2-variable polynomial by D. Bar Natan and R. Van Der Veen.        |
-| **HOMFLYPT polynomial **       | Two-variable polynomial generalizing both Alexander and Jones polynomials. |
-| **Khovanov Homology** | A categorification of the Jones polynomial by M. Khovanov 1999.      |
+| **Alexander polynomial**      | The first knot polynomial by J.W. Alexander in 1923.                        |
+| **Jones polynomial**          | Knot polynomial by V. Jones arising from representation theory of $\displaystyle U_{q}({\mathfrak {sl}}_{2})$.       |
+| **Theta polynomial**          | Very strong, computable, and fun 2-variable polynomial by D. Bar Natan and R. Van Der Veen.        |
+| **HOMFLYPT polynomial**       | Two-variable polynomial generalizing both Alexander and Jones polynomials. |
+| **Knot Floer homology**       | TO ADD |
+| **Khovanov homology** | A categorification of the Jones polynomial by M. Khovanov 1999.      |
 
 ## 📁 Dataset Format
 
 Each dataset is provided as a `.csv` file. Each row typically corresponds to a knot, and columns represent:
 
-- Knot identifier (e.g., `3_1`, `4_1`, `5_2`)
+- Knot identifier
 - Polynomial coefficients or homology ranks
 - Additional scalar invariants (crossing number, alternating, signature, s invariant, etc.)
 
-All datasets use the same knot identifier, following KnotScape's ordering for knots up to 16 crossings and Regina's ordering for 17 crossings knots.
+All datasets use the same knot identifier, following KnotScape's ordering for knots up to 16 crossings (e.g. `13n5109`) and Regina's ordering for 17 crossings knots (e.g. `17ns_29`).
 
 Please refer to each subdirectory’s `README.md` for format-specific notes.
 
@@ -33,6 +34,7 @@ Please refer to each subdirectory’s `README.md` for format-specific notes.
 │   ├── Jones/
 │   ├── Theta/
 │   ├── HOMLFYPT/
+|   ├── HFK/
 │   └── Khovanov/
 ├── README.md
 ├── LICENSE
