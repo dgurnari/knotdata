@@ -19,11 +19,6 @@ Each row represents one knot, with associated metadata and polynomial coefficien
 | `maximum_exponent`     | Highest exponent of `t` in the polynomial                                   |
 | `A0`–`A16`             | Coefficients of the polynomial, aligned to degrees from `minimum_exponent` to `maximum_exponent` (zero-padded) |
 
-### 🧠 Notes on Polynomial Format
-
-- The Alexander polynomial is expressed as a Laurent polynomial in `t`, but in this dataset it's encoded as a standard vector of coefficients for uniform CSV formatting.
-- The nonzero coefficients always begin at the index corresponding to `minimum_exponent` and end at `maximum_exponent`.
-
 ### 📦 Example
 
 ```csv
