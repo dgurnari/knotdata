@@ -36,11 +36,11 @@ Please refer to each subdirectory’s `README.md` for format-specific notes.
 /<root>
 ├── data/
 │   ├── Alexander/
-│   ├── Jones/
-│   ├── Theta/
-│   ├── HOMLFYPT/
 |   ├── HFK/
+│   ├── HOMLFYPT/
+│   ├── Jones/
 │   └── Khovanov/
+│   ├── Theta/
 ├── README.md
 ├── LICENSE
 └── utils/ (optional: scripts used for generating and parsing the data)
