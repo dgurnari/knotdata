@@ -2,7 +2,7 @@
 
 This dataset contains bigraded **knot Floer homology** (HFK) data for all prime knots up to 15 crossings, stored in `.csv` format. The information includes algebraic, geometric, and topological invariants derived from Heegaard Floer theory.
 
-## 📄 File: `hfk.csv`
+## 📄 File: `HFK_upto17.csv`
 
 Each row corresponds to a knot and contains metadata along with its full bigraded homology.
 
@@ -10,7 +10,7 @@ Each row corresponds to a knot and contains metadata along with its full bigrade
 
 | Column Name     | Description                                                                 |
 |------------------|-----------------------------------------------------------------------------|
-| `knot_id`        | Knot identifier in the format `XX_Y` (e.g., `03_1` for the trefoil knot)    |
+| `knot_id`        | Knot identifier                                                             |
 | `L_space_knot`   | Boolean, `True` if the knot is an L-space knot                              |
 | `epsilon`        | Ozsváth–Szabó–Rasmussen invariant (takes values in {-1, 0, 1})              |
 | `fibered`        | Boolean, `True` if the knot is fibered                                      |
@@ -22,12 +22,6 @@ Each row corresponds to a knot and contains metadata along with its full bigrade
 | `total_rank`     | Sum of all HFK ranks (dimension of the chain complex)                       |
 | `signature`      | Knot signature (a classical knot invariant)                                 |
 
-### 🧠 Notes on Format
-
-- The `ranks` column encodes the full bigraded homology as a dictionary mapping `(Alexander grading, Maslov grading)` to the rank (multiplicity) of generators.
-- All homology ranks are over ℤ/2ℤ.
-- Knots with `L_space_knot = True` satisfy certain Floer homological properties relevant in contact and 3-manifold topology.
-- The `epsilon`, `nu`, and `tau` invariants provide concordance information and bounds on the 4-ball genus.
 
 ### 📦 Example Entry
 
