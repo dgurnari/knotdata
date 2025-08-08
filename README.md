@@ -4,13 +4,13 @@ This repository contains a collection of datasets for various knot invariants, i
 
 ## 📊 Included Invariants
 
-| Invariant Type     | Description                                                                 |
+| Invariant     | Description                                                                 |
 |--------------------|-----------------------------------------------------------------------------|
-| **Alexander**      | Classical knot invariant based on Seifert matrices.                        |
-| **Jones**          | Polynomial invariant arising from a braid representation of knots.         |
-| **Theta**          | (fill in exact meaning here).         |
-| **HOMFLYPT**       | Two-variable polynomial generalizing both Alexander and Jones polynomials. |
-| **Khovanov Homology** | A categorification of the Jones polynomial providing richer data.     |
+| **Alexander polynomial **      | The first knot polynomial by J.W. Alexander in 1923.                        |
+| **Jones polynomial **          | Knot polynomial by V. Jones arising from representation theory of $\displaystyle U_{q}({\mathfrak {sl}}_{2})$.       |
+| **Theta polynomial **          | Very strong, computable, and fun 2-variable polynomial by D. Bar Natan and R. Van Der Veen.        |
+| **HOMFLYPT polynomial **       | Two-variable polynomial generalizing both Alexander and Jones polynomials. |
+| **Khovanov Homology** | A categorification of the Jones polynomial by M. Khovanov 1999.      |
 
 ## 📁 Dataset Format
 
