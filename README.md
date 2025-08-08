@@ -1,4 +1,4 @@
-# Knot Polynomial Dataset Repository
+# Knot Invariants Dataset
 
 This repository contains a collection of datasets for various knot invariants, including polynomial and homological data. Each dataset is stored in `.csv` format with coefficients or values organized by columns for ease of analysis and computational use.
 
