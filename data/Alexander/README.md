@@ -2,7 +2,7 @@
 
 This dataset contains Alexander polynomials for all prime knots up to 17 crossings, stored in a structured `.csv` format.
 
-## 📄 File: `alexander.csv`
+## 📄 File: `alexander_upto17.csv`
 
 Each row represents one knot, with associated metadata and polynomial coefficients.
 
